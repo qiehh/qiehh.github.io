@@ -1,9 +1,9 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import type * as Preset from '@docusaurus/preset-classic'
+import type { Config } from '@docusaurus/types'
+import { themes as prismThemes } from 'prism-react-renderer'
 
 const config: Config = {
-  title: 'My Site',
+  title: 'Qiehaha',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -66,9 +66,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Qiehaha',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Qiehaha Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -78,7 +78,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -136,6 +136,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-};
+}
 
-export default config;
+export default config
